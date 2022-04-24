@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 
-class ContacController extends Controller
+class ContactController extends Controller
 {
     public function submit(Request $request)
     {
@@ -14,7 +15,7 @@ class ContacController extends Controller
             'message' => 'required',
         ]);
 
-        //Send Email
+        Mail::to('bertoia114@gmail.com')->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
         return ['sucess' => true];
     }
 }
