@@ -75,11 +75,12 @@
                       email: '',
                       message: '',
                     };
-                    this.successMessage = 'Thanks for your contact request. I will get back to you shortly.';
+                    this.successMessage = 'Gracias por su solicitud de contacto. Me pondré en contacto con usted en breve.';
                   })
-                  .catch(res => {
+                  .catch(async (response) => {
+                    const res = await response.json();  
                     if (res.status === 422) {
-                      this.errors = result.errors;
+                      this.errors = res.errors;
                     }
                     console.log(res);
                   })

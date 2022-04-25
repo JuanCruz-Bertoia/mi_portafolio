@@ -16,7 +16,7 @@ class ContactMail extends Mailable
      *
      * @return void
      */
-    public function __construct(public string $name, public string $email, public string $message)
+    public function __construct(public string $name, public string $email, public string $body)
     {
         //
     }
