@@ -92,19 +92,19 @@
                         </template>
                         @csrf
                         <div class="mb-6">
-                            <x-forms.input placeholder="Su Nombre" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                            <x-forms.input placeholder="Nombre" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
                             <template x-if="errors.name">
                                 <div x-text="errors.name[0]" class="text-red-500"></div>
                             </template>
                         </div>
                         <div class="mb-6">
-                            <x-forms.input type="email" placeholder="Su Correo" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                            <x-forms.input type="email" placeholder="Email" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
                             <template x-if="errors.email">
                                 <div x-text="errors.email[0]" class="text-red-500"></div>
                             </template>
                         </div>
                         <div class="mb-6">
-                            <x-forms.textarea placeholder="Su mensaje" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-forms.textarea>
+                            <x-forms.textarea placeholder="Mensaje" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-forms.textarea>
                             <template x-if="errors.message">
                                 <div x-text="errors.message[0]" class="text-red-500"></div>
                             </template>

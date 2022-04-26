@@ -5,8 +5,8 @@
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
                     <h1 class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        Mi nombre es Juan Cruz. <br />
-                        Soy <span class="rounded-md text-amber-600">Trainee Backend</span>.
+                        Juan C. Bertoia <br />
+                        <span class="rounded-md text-amber-600">Trainee Backend</span>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px]">
                         Descripcion

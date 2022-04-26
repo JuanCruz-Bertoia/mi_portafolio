@@ -5,6 +5,6 @@
       'bg-red-700 border-red-700 text-white hover:bg-red-800 ' => $variant === 'red',
       'bg-gray-900 border-gray-700 text-white hover:bg-gray-800 ' => $variant === 'dark',
       'bg-primary border-primary text-white hover:bg-opacity-80' => $variant === 'primary',
-    ])}}>
+    ])}} " >
     {{$slot}}
 </a>
