@@ -17,6 +17,7 @@ class ContactController extends Controller
         ]);
 
         Mail::to('bertoia114@gmail.com')->send(new ContactMail($validated['name'], $validated['email'], $validated['message']));
-        return ['sucess' => true];
+
+        return $request->all();
     }
 }

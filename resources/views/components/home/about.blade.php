@@ -1,5 +1,5 @@
 <!-- ====== About Section Start -->
-<section id="about" class="dark:bg-slate-800 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+<section id="about" class="dark:bg-slate-800  pb-12 lg:pb-[90px] overflow-hidden">
     <div class="container">
         <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
             About Me

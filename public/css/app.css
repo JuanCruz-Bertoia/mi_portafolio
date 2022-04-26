@@ -674,6 +674,9 @@ input:checked ~ .dot .active{
 .h-\[260px\]{
   height: 260px;
 }
+.h-auto{
+  height: auto;
+}
 .min-h-screen{
   min-height: 100vh;
 }
@@ -834,6 +837,10 @@ input:checked ~ .dot .active{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
+.border-\[\#E5E5E5\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
+}
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -964,6 +971,9 @@ input:checked ~ .dot .active{
 }
 .pt-11{
   padding-top: 2.75rem;
+}
+.pb-\[60px\]{
+  padding-bottom: 60px;
 }
 .text-center{
   text-align: center;
@@ -1674,6 +1684,10 @@ input#checkboxLabelFive:checked~.box{
 
   .lg\:pt-0{
     padding-top: 0px;
+  }
+
+  .lg\:pb-12{
+    padding-bottom: 3rem;
   }
 
   .lg\:text-right{
