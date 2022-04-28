@@ -2,7 +2,7 @@
 <section id="about" class="dark:bg-slate-800  pb-12 lg:pb-[90px] overflow-hidden">
     <div class="container">
         <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
-            About Me
+            Sobre mí
         </h2>
         <p class="text-base dark:text-gray-400 mb-8">
             I have been working as a professional software developer for 10+ years. <br />

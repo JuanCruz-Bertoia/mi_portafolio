@@ -2,7 +2,7 @@
 <header x-data="{ navbarOpen: false }" class="fixed left-0 top-0 z-50 bg-white w-full flex items-center shadow-md dark:bg-slate-900 h-24">
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
-            <div class="pr-4 w-auto max-w-full">
+            <div class="pr-4 w-full max-w-full">
                 <a href="/" class="w-full flex items-center py-2">
                     <span class="text-xl xl:text-2xl font-bold text-[#0c7178] dark:text-white">Juan Cruz Bertoia</span>
                 </a>
