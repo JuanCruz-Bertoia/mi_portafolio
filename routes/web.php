@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
+Route::post('/hero/donwload', [\App\Http\Controllers\DonwloadCVController::class, 'donwload']);
