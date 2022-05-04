@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,5 +18,6 @@ Route::get('/', function () {
     return view('home');
 });
 
+
 Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
-Route::post('/hero/donwload', [\App\Http\Controllers\DonwloadCVController::class, 'donwload']);
+Route::get('download', [\App\Http\Controllers\DonwloadCVController::class, 'download']);

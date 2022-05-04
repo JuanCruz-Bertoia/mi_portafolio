@@ -7,8 +7,14 @@ use Illuminate\Support\Facades\Storage;
 
 class DonwloadCVController extends Controller
 {
-    public function donwload()
+    public function download()
     {
-        return Storage::download('JuanCruzBertoiaCV.pdf');
+        $file = public_path('CV/JuancruzBetoiaCV.pdf');
+        dd($file);
+
+        echo "<h1>
+        Juan C. Bertoia </h1>";
+
+        return true;
     }
 }

@@ -14,9 +14,9 @@
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
-                            <x-button-link href="#" variant="primary" class="rounded-lg">
+                            <a href="download" class="rounded-lg">
                                 Descargar CV
-                            </x-button-link>
+                            </a>
                         </li>
                     </ul>
                     <div class="clients pt-16">
