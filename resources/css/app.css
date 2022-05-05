@@ -21,6 +21,17 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+}
+
+.dark .dark\:bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 64 94 / var(--tw-bg-opacity));
+}
+
 .navbarTogglerActive > span:nth-child(1) {
   @apply top-[7px];
   transform: rotate(45deg);

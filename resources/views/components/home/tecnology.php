@@ -1,5 +1,5 @@
 <!-- ====== Brands Section Start -->
-<section class="bg-white  py-20 lg:py-[100px] dark:bg-slate-600">
+<section id="tecnology" class="bg-white  py-20 lg:py-[120px] dark:bg-slate-600">
   <div class="container">
     <div class="text-center mx-auto mb-[60px] max-w-[510px]">
       <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
