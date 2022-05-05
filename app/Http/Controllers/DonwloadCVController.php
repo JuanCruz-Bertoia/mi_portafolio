@@ -9,7 +9,7 @@ class DonwloadCVController extends Controller
 {
     public function download()
     {
-        $file = public_path('CV/JuancruzBetoiaCV.pdf');
+        $file = 'CV/JuancruzBetoiaCV.pdf';
         dd($file);
 
         echo "<h1>
