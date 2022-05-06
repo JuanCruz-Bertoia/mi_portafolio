@@ -12,13 +12,6 @@
                         Descripcion
 
                     </p>
-                    <ul class="flex flex-wrap items-center">
-                        <li>
-                            <a href="download" class="rounded-lg">
-                                Descargar CV
-                            </a>
-                        </li>
-                    </ul>
                     <div class="clients pt-16">
                         <x-social-icons></x-social-icons>
                     </div>

@@ -20,4 +20,3 @@ Route::get('/', function () {
 
 
 Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
-Route::get('download', [\App\Http\Controllers\DonwloadCVController::class, 'download']);

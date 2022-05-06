@@ -101,7 +101,7 @@
 
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="bg-white dark:bg-slate-900 relative rounded-lg p-8 sm:p-12 shadow-lg">
-                    <form action="/contact/submit" method="POST" x-data="
+                    <form action="https://formspree.io/f/meqnpyrd" method="POST" x-data="
           {
               formData: {
                 name: '',
@@ -113,12 +113,12 @@
               submitForm(event) {
                 this.successMessage = '';
                 this.errors = {};
-                  fetch(`/contact/submit`, {
+                  fetch('https://formspree.io/f/meqnpyrd', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',
                       'X-Requested-With': 'XMLHttpRequest',
-                      'X-CSRF-TOKEN': document.querySelector(`meta[name='csrf-token']`).getAttribute('content')
+                      <!-- 'X-CSRF-TOKEN': document.querySelector(`meta[name='csrf-token']`).getAttribute('content') -->
                     },
                     body: JSON.stringify(this.formData)
                   })
@@ -175,6 +175,36 @@
                             </x-button>
                         </div>
                     </form>
+
+                    <!-- <form action="https://formspree.io/f/meqnpyrd" method="POST">
+                        <template x-if="successMessage">
+                            <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-gray-100 mb-4"></div>
+                        </template>
+                        @csrf
+                        <div class="mb-6">
+                            <x-forms.input placeholder="Nombre" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                            <template x-if="errors.name">
+                                <div x-text="errors.name[0]" class="text-red-500 py-4 px-6"></div>
+                            </template>
+                        </div>
+                        <div class="mb-6">
+                            <x-forms.input type="email" placeholder="Email" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                            <template x-if="errors.email">
+                                <div x-text="errors.email[0]" class="text-red-500 py-4 px-6"></div>
+                            </template>
+                        </div>
+                        <div class="mb-6">
+                            <x-forms.textarea placeholder="Mensaje" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : '' "></x-forms.textarea>
+                            <template x-if="errors.message">
+                                <div x-text="errors.message[0]" class="text-red-500 py-4 px-6"></div>
+                            </template>
+                        </div>
+                        <div>
+                            <x-button class="w-full">
+                                Enviar
+                            </x-button>
+                        </div>
+                    </form> -->
                 </div>
             </div>
         </div>

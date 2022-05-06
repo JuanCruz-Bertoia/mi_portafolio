@@ -1,4 +1,4 @@
-<button {{$attributes->class([
+<button type="submit" {{$attributes->class([
       'py-4 px-6 md:px-9 lg:px-6 xl:px-9 rounded leading-normal border inline-block transition',
       'hover:bg-primary hover:border-primary hover:text-white' => $variant === 'outline-primary',
       'hover:bg-red-700 hover:border-red-700 hover:text-white' => $variant === 'outline-red',
