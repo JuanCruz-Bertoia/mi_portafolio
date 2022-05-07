@@ -34,7 +34,7 @@
         </div>
         <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-            <x-portafolio-item :title="$item['title']" :categories="$item['category']" :image="$item['image']" :github="$item['github']"></x-portafolio-item>
+            <x-portafolio-item :title="$item['title']" :categories="$item['category']" :image="$item['image']" :description="$item['description']" :github="$item['github']"></x-portafolio-item>
             @endforeach
         </div>
     </div>

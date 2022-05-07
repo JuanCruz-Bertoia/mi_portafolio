@@ -21,7 +21,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-img {
+#logos {
   width: 100%;
   max-width: 120px;
   height: auto;

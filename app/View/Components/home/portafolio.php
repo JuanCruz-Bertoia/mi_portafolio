@@ -16,7 +16,13 @@ class Portafolio extends Component
      */
     public function __construct()
     {
-        $this->items = [];
+        $this->items = [[
+            'category' => ['PHP'],
+            'title' => 'PHP MVC Micro-Framework',
+            'image' => url('/img/php-mvc-framework.png'),
+            'description' => 'Micro-Framework que desarrolle para entender mejor el concepto de MVC (Modelo-Vista-Controlador)',
+            'github' => 'https://github.com/JuanXB/microFrameworkPHP'
+        ],];
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }

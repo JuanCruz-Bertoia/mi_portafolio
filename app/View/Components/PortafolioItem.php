@@ -11,9 +11,8 @@ class PortafolioItem extends Component
      *
      * @return void
      */
-    public function __construct(public string $title, public array $categories, public string $image, public string $github)
+    public function __construct(public string $title, public array $categories, public string $image,  public string $description, public string $github)
     {
-        //
     }
 
     /**

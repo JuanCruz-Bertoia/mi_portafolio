@@ -12,6 +12,9 @@
             <h3 class="font-bold text-lg text-dark dark:text-gray-300 mb-4">
                 {{ $title }}
             </h3>
+            <p class="text-dark dark:text-gray-300 mb-2">
+                {{ $description }}
+            </p>
             <x-button-link :href="$github" varian="outline-primary">Ver detalles</x-button-link>
         </div>
     </div>

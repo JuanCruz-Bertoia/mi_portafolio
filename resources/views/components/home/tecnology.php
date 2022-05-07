@@ -18,7 +18,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/git-logo.png" alt="git-logo" class="w-full h-12" />
+            <img src="img/logo/git-logo.png" id="logos" alt="git-logo" class="w-full h-12" />
           </div>
           <div class="
                   w-[150px]
@@ -29,7 +29,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/mysql-logo.png" alt="mysql-logo" class="w-full h-12" />
+            <img src="img/logo/mysql-logo.png" id="logos" alt="mysql-logo" class="w-full h-12" />
           </div>
           <div class="
                   w-[150px]
@@ -40,7 +40,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/php-logo.png" alt="php-logo" class="w-full h-12" />
+            <img src="img/logo/php-logo.png" id="logos" alt="php-logo" class="w-full h-12" />
           </div>
           <div class="
                   w-[150px]
@@ -51,7 +51,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/html5-logo.png" alt="html5-logo" class="w-full h-12" />
+            <img src="img/logo/html5-logo.png" id="logos" alt="html5-logo" class="w-full h-12" />
           </div>
           <div class="
                   w-[150px]
@@ -62,7 +62,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/css3-logo.png" alt="css3-logo" class="w-full h-12" />
+            <img src="img/logo/css3-logo.png" id="logos" alt="css3-logo" class="w-full h-12" />
           </div>
           <div class="
                   w-[150px]
@@ -73,7 +73,7 @@
                   justify-center
                   mx-4
                   ">
-            <img src="img/logo/laravel-logo.png" alt="laravel-logo" class="w-full h-12" />
+            <img src="img/logo/laravel-logo.png" id="logos" alt="laravel-logo" class="w-full h-12" />
           </div>
         </div>
       </div>
