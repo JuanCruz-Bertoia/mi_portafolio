@@ -7,7 +7,7 @@
         </a>
         <div class="text-center bg-white dark:bg-slate-800 relative z-10 py-9 px-3 rounded-lg shadow-lg mx-7 -mt-4 h-[260px]">
             <span class="text-sm text-primary font-semibold block mb-2">
-                {{ implode(", ", $categories) }}
+                {{ implode(" - ", $categories) }}
             </span>
             <h3 class="font-bold text-lg text-dark dark:text-gray-300 mb-4">
                 {{ $title }}
@@ -15,7 +15,7 @@
             <p class="text-dark dark:text-gray-300 mb-2">
                 {{ $description }}
             </p>
-            <x-button-link :href="$github" varian="outline-primary">Ver detalles</x-button-link>
+            <x-button-link :href="$github" target="_blank" varian="outline-primary">Ver detalles</x-button-link>
         </div>
     </div>
 </div>

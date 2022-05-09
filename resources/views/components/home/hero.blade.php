@@ -9,8 +9,7 @@
                         <span class="rounded-md text-amber-600">Trainee Backend</span>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px]">
-                        Descripcion
-
+                        Soy un Trainee Backend PHP, con conocimientos de MySql y Laravel.
                     </p>
                     <div class="clients pt-16">
                         <x-social-icons></x-social-icons>
