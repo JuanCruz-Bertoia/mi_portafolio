@@ -24,7 +24,7 @@
                     </li>
                     @foreach($tabs as $tab)
                     <li class="mb-1">
-                        <button @click="selectedTab = '{{$tab}}' " :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses " class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition ">
+                        <button @click="selectedTab = '{{ $tab }}' " :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses " class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition ">
                             {{$tab}}
                         </button>
                     </li>

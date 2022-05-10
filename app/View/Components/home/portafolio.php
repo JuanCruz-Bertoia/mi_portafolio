@@ -4,6 +4,8 @@ namespace App\View\Components\home;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
+use function url;
+use function view;
 
 class Portafolio extends Component
 {
