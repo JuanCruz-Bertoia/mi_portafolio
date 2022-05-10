@@ -62,6 +62,6 @@ class Portafolio extends Component
      */
     public function render()
     {
-        return view('components.home.portafolio');
+        return view('components/home/portafolio');
     }
 }
