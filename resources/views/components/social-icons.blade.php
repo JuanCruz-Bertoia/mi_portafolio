@@ -1,6 +1,6 @@
 <div {{ $attributes->merge(['class' => 'flex items-center']) }}>
 
-    <a href="https://github.com/JuanCruz-Bertoia" target="_blank" class="
+    <a href="https://github.com/JuanXB" target="_blank" class="
        w-10
        h-10
        flex

@@ -22,14 +22,14 @@ class Portafolio extends Component
                 'title' => 'PHP MVC Micro-Framework',
                 'image' => url('/img/php-mvc-framework.png'),
                 'description' => 'Micro-Framework que desarrolle para entender mejor el concepto de MVC (Modelo-Vista-Controlador)',
-                'github' => 'https://github.com/JuanCruz-Bertoia/microFrameworkPHP'
+                'github' => 'https://github.com/JuanXB/microFrameworkPHP'
             ],
             [
                 'category' => ['PHP', 'CSS', 'MySql'],
                 'title' => 'Registro de gastos',
                 'image' => url('/img/registroGastos.png'),
                 'description' => 'App web para el registro de gastos personales usando el micro-frawork que desarrolle',
-                'github' => 'https://github.com/JuanCruz-Bertoia/ProyectoGastos'
+                'github' => 'https://github.com/JuanXB/ProyectoGastos'
             ],
 
             [
@@ -37,7 +37,7 @@ class Portafolio extends Component
                 'title' => 'Sistema de inicio de sesión ',
                 'image' => url('/img/LoginPage.png'),
                 'description' => 'Sistema de inicio de sesión con validacion y registro de usuarios con PHP',
-                'github' => 'https://github.com/JuanCruz-Bertoia/ProyectoPhpMySql'
+                'github' => 'https://github.com/JuanXB/ProyectoPhpMySql'
             ],
 
             [
@@ -45,7 +45,7 @@ class Portafolio extends Component
                 'title' => 'Clone de Instagram',
                 'image' => url('/img/instagramClone.png'),
                 'description' => 'Clone de Instagram usando Laravel',
-                'github' => 'https://github.com/JuanCruz-Bertoia/freeCodeGram'
+                'github' => 'https://github.com/JuanXB/freeCodeGram'
             ],
 
         ];
