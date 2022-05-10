@@ -10,7 +10,7 @@ use function view;
 class Portafolio extends Component
 {
     public array $items = [];
-
+    public array $tabs = [];
     /**
      * Create a new component instance.
      *
@@ -51,6 +51,8 @@ class Portafolio extends Component
             ],
 
         ];
+
+        $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
     }
 
     /**
