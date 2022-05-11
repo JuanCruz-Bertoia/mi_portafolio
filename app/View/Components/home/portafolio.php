@@ -9,7 +9,18 @@ use function view;
 
 class Portafolio extends Component
 {
+    /**
+     * Projects.
+     *
+     * @var array
+     */
     public array $items = [];
+
+    /**
+     * Projects categories.
+     *
+     * @var array
+     */
     public array $tabs = [];
 
     /**
@@ -65,6 +76,6 @@ class Portafolio extends Component
     public function render()
     {
 
-        return view('components.home.portafolio', ['tabs' => $this->tabs, 'items' => $this->items]);
+        return view('components.home.portafolio');
     }
 }
