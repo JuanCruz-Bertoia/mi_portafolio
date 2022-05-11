@@ -844,13 +844,13 @@ input:checked ~ .dot .active{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .px-2{
   padding-left: 0.5rem;
