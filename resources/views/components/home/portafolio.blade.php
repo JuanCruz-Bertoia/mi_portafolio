@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-wrap justify-center -mx-4">
+        <!-- <div class="flex flex-wrap justify-center -mx-4">
             <div class="w-full px-4">
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                     <li class="mb-1">
@@ -37,6 +37,6 @@
             <x-portafolio-item :title="$item['title']" :categories="$item['category']" :image="$item['image']" :description="$item['description']" :github="$item['github']"></x-portafolio-item>
             @endforeach
         </div>
-    </div>
+    </div> -->
 </section>
 <!-- ====== Portafolio Section End -->
