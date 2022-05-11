@@ -22,7 +22,7 @@
         {{$slot}}
         <x-layout.footer></x-layout.footer>
     </div>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://juancruz-bertoia.herokuapp.com/js/app.js"></script>
 </body>
 
 </html>
