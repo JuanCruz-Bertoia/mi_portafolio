@@ -64,6 +64,6 @@ class Portafolio extends Component
     public function render()
     {
 
-        return view('components/home/Portafolio', ['tabs' => $this->tabs, 'items' => $this->items]);
+        return view('components.home.portafolio', ['tabs' => $this->tabs, 'items' => $this->items]);
     }
 }
