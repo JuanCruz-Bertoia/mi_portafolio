@@ -9,7 +9,7 @@
             <div class="w-full px-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
                     <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
-                        Mis proyectos recientes
+                        Mis proyectos
                     </h2>
                 </div>
             </div>

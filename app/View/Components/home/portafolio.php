@@ -9,8 +9,8 @@ use function view;
 
 class Portafolio extends Component
 {
-    public  $items = [];
-    public  $tabs = [];
+    public $items = [];
+    public $tabs = [];
 
     /**
      * Create a new component instance.
@@ -63,7 +63,11 @@ class Portafolio extends Component
      */
     public function render()
     {
+        $data = [
+            'items' => $this->items,
+            'tabs' => $this->tabs,
+        ];
 
-        return view('components/home/portafolio');
+        return view('components/home/portafolio', $data);
     }
 }
