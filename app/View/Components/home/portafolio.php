@@ -11,6 +11,7 @@ class Portafolio extends Component
 {
     public array $items = [];
     public array $tabs = [];
+
     /**
      * Create a new component instance.
      *
