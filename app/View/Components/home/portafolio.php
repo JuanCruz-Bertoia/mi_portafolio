@@ -9,8 +9,8 @@ use function view;
 
 class Portafolio extends Component
 {
-    public array $items = [];
-    public array $tabs = [];
+    public  $items = [];
+    public  $tabs = [];
 
     /**
      * Create a new component instance.
