@@ -14,7 +14,8 @@ class Portafolio extends Component
 
     /**
      * Create a new component instance.
-     *
+     * @param array  $items
+     * @param array  $tabs
      * @return void
      */
     public function __construct()
