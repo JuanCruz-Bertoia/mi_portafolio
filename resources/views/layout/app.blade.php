@@ -23,7 +23,7 @@
         {{$slot}}
         <x-layout.footer></x-layout.footer>
     </div>
-    <script src="{{ secure_asset('js/app.js')}}"></script>
+    <script defer src="{{ secure_asset('js/app.js')}}"></script>
 </body>
 
 </html>
