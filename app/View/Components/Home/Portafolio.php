@@ -35,7 +35,7 @@ class Portafolio extends Component
             [
                 'category' => ['PHP'],
                 'title' => 'PHP MVC Micro-Framework',
-                'image' => url('/img/php-mvc-framework.png'),
+                'image' => secure_url('/img/php-mvc-framework.png'),
                 'description' => 'Micro-Framework que desarrolle para entender mejor el concepto de MVC (Modelo-Vista-Controlador)',
                 'github' => 'https://github.com/JuanXB/microFrameworkPHP'
             ],
