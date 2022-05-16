@@ -123,7 +123,7 @@
                         <template x-if="successMessage">
                             <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-gray-100 mb-4"></div>
                         </template>
-                        @csrf
+
                         <div class="mb-6">
                             <x-forms.input placeholder="Nombre" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
                             <template x-if="errors.name">
