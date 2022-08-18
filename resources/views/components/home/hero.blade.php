@@ -6,10 +6,10 @@
                 <div class="hero-content">
                     <h1 class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
                         Juan C. Bertoia <br />
-                        <span class="rounded-md text-amber-600">Trainee Backend</span>
+                        <span class="rounded-md text-amber-600">Backend PHP Jr.</span>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px]">
-                        Soy un Trainee Backend PHP, con conocimientos de MySql y Laravel.
+                        Soy un desarrollador Backend PHP Jr., con conocimientos de MySql y Laravel.
                     </p>
                     <div class="clients pt-16">
                         <x-social-icons></x-social-icons>
